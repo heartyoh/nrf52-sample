@@ -1,0 +1,14 @@
+# Flash the program
+flash: $(SECONDARY_FLASH)
+	@echo Flashing: $<
+	nrfjprog --program $< -f nrf52 --sectorerase
+	nrfjprog --reset -f nrf52
+
+# Flash softdevice
+flash_softdevice:
+	@echo Flashing: s132_nrf52_4.0.2_softdevice.hex
+	nrfjprog --program /usr/local/opt/nrf5-sdk/components/softdevice/s132/hex/s132_nrf52_4.0.2_softdevice.hex -f nrf52 --sectorerase 
+	nrfjprog --reset -f nrf52
+
+erase:
+	nrfjprog --eraseall -f nrf52

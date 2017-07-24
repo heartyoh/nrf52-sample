@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1537675842/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1537675842/appendContributed=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1537675842/nRF5SDK_LOC/delimiter=\:
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1537675842/nRF5SDK_LOC/operation=append
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1537675842/nRF5SDK_LOC/value=${nRF5SDK_LOC}
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1018317542/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1018317542/appendContributed=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1018317542/nRF5SDK_LOC/delimiter=\:
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1018317542/nRF5SDK_LOC/operation=append
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1018317542/nRF5SDK_LOC/value=${nRF5SDK_LOC}
